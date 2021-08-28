@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "br.com.dio.app.repositories"
         minSdkVersion 21
-        targetSdkVersion 31
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
@@ -61,5 +61,8 @@ dependencies {
     //lifecycle @see https://developer.android.com/topic/libraries/architecture/lifecycle?hl=pt-Br#lc
     implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+
+    //glide
+    implementation "com.github.bumptech.glide:glide:4.12.0"
 
 }
